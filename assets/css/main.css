@@ -1,0 +1,656 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: white;
+}
+
+a {
+	color:blue;
+}
+
+@font-face {
+	font-family:'youngserif-regular';
+	src: url('fonts/YoungSerif-Regular.otf');
+}
+
+@font-face {
+	font-family:'karla-regular';
+	src: url('fonts/Karla-Regular.otf');
+}
+
+@font-face {
+	font-family:'wombscript-linear';
+	src: url('fonts/WombScript-Linear.otf');
+}
+
+div.title {
+	font-size:150px;
+	text-align:center;
+	padding:100px;
+	font-family:'youngserif-regular';
+	color:white;
+	position:fixed;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+}
+
+div.button {
+	text-align:center;
+	padding-top: 500px;
+  }
+  
+  div.button a {
+	border: 1px solid blue;
+	padding: 30px;
+	border-radius: 50%;
+	font-family: 'karla-regular';
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+  }
+  
+  
+  div.letsgetdressed {
+	  font-family: 'youngserif-regular';
+	  color: blue;
+	  font-size:80px;
+	  text-align: center;
+	  padding: 35px;
+  }
+
+
+  .paris-airport video {
+    object-fit: cover;
+	width: 100%;
+    height: 100%; 
+    z-index: -100;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+
+
+  
+  div.clothes {
+text-align: center;
+font-family:'karla-regular';
+color:blue;
+font-size:30px;
+  }
+
+  div.stripedshirt {
+	float: right;
+	padding-right:250px;
+	margin-right: 0px 0px 0px 30px;
+  }
+
+
+
+div.beret {
+	padding-left: 250px;
+	padding-top:50px;
+}
+
+div.foodtitle {
+	font-family: 'youngserif-regular';
+	color: blue;
+	font-size:80px;
+	text-align: center;
+	padding: 35px;
+}
+div.foodbodytext {
+	text-align: center;
+	font-family:'karla-regular';
+	color:blue;
+	font-size:30px;
+	  }
+
+
+div.baguette {
+	padding-left: 250px;
+	padding-top:50px;	
+}
+
+div.croissant {
+	float: right;
+	padding-right:250px;
+	margin-right: 0px 0px 0px 30px;
+  }
+
+  div.alldressed {
+	text-align: center;
+	font-family:'karla-regular';
+	color:blue;
+	font-size:50px;
+	padding-top:250px;
+	  }
+
+	  div.allfull {
+		text-align: center;
+		font-family:'karla-regular';
+		color:blue;
+		font-size:50px;
+		padding-top:30px;
+		  }
+
+
+div.lourvebutton {
+	font-family: 'youngserif-regular';
+	color: blue;
+	font-size:80px;
+	text-align: center;
+	padding: 35px;
+}
+
+div.lourvebutton a {
+	text-decoration: none;
+}
+
+div.lourvemap {
+	float: center;
+	padding-left: 400px;
+	padding-top: 200px;
+}
+
+div.art {
+	text-align: center;
+		font-family:'karla-regular';
+		color:blue;
+		font-size:50px;
+		padding-top:30px;
+}
+
+div.monalisachoice {
+	text-align: left;
+		font-family:'karla-regular';
+		color:black;
+		font-size:25px;
+		padding-left:400px;
+		padding-top:10px;
+}
+div.monalisachoice a {
+	text-decoration: none;
+}
+
+div.weddingchoice {
+	text-align: right;
+		font-family:'karla-regular';
+		color:black;
+		font-size:25px;
+		padding-right:400px;
+		padding-top:10px;
+		padding-bottom:20px;
+}
+
+div.weddingchoice a {
+	text-decoration: none;
+}
+
+div.monalisa {
+	padding-left: 300px;
+	padding-top: 100px;
+	float: center;
+}
+
+div.protest {
+	text-align: center;
+		font-family:'karla-regular';
+		color:blue;
+		font-size:40px;
+		padding-top:400px;
+		padding-bottom:400px;
+		padding-left:20px;
+		padding-right:20px;
+}
+div.dizzy {
+	text-align: center;
+		font-family:'karla-regular';
+		color:blue;
+		font-size:40px;
+		padding-top:400px;
+		padding-bottom:400px;
+		padding-left:20px;
+		padding-right:20px;
+}
+
+div.dizzytwo {
+	text-align: right;
+	font-family:'karla-regular';
+	color:blue;
+	font-size:40px;
+	padding-top:400px;
+	padding-bottom:400px;
+	padding-left:20px;
+	padding-right:20px;
+
+}
+
+.dizzytwo a {
+	text-decoration:none;
+}
+
+div.texttoself {
+	text-align: center;
+		font-family:'karla-regular';
+		color:blue;
+		font-size:40px;
+		padding-top:400px;
+		padding-bottom:400px;
+		padding-left:20px;
+		padding-right:20px;
+}
+.texttoself a {
+	text-decoration:none;
+}
+
+div.lesmarais {
+	margin-top: 80px;
+	margin-left: 20px;
+	text-align:center;
+	position:fixed;
+  }
+  
+  div.lesmarais a {
+	border: 1px solid blue;
+	padding: 30px;
+	border-radius: 50%;
+	font-family: 'karla-regular';
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+  }
+
+  div.bike {
+	margin-top: 50px;
+	text-align:left;
+	padding:200px;
+	position:fixed;
+  }
+  
+  div.bike a {
+	border: 1px solid blue;
+	padding: 30px;
+	border-radius: 50%;
+	font-family: 'karla-regular';
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+  }
+
+  div.salesassistant {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top:350px;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  div.anxiety {
+	font-family: 'wombscript-linear';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top: 300px;
+	padding-bottom:400px;
+  }
+
+  div.walking {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top:350px;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  div.walkingtwo {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top:550px;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  div.walkingthree {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top:700px;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  div.angryman {
+	font-family: 'wombscript-linear';
+	font-size: 70px;
+		text-align:center;
+	position: relative;
+	bottom:-700px;
+	padding-bottom:100px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  div.gotogardens {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: blue;
+	text-align: center;
+	padding-top:40px;
+	padding-left:10px;
+	padding-right:10px;
+  }
+
+  div.takeyourpick {
+		text-align: center;
+		font-family:'karla-regular';
+		color:blue;
+		font-size:30px;
+		padding-top: 50px;
+  }
+  div.luxembourg {
+	margin-top: 50px;
+	text-align:center;
+	padding:400px;
+	position:fixed;
+  }
+  
+  div.luxembourg a {
+	border: 1px solid blue;
+	padding: 30px;
+	border-radius: 50%;
+	font-family: 'karla-regular';
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+  }
+
+  div.secretgarden {
+	margin-top: 50px;
+	text-align:center;
+	padding:200px;
+	position:fixed;
+  }
+  
+  div.secretgarden a {
+	border: 1px solid blue;
+	padding: 30px;
+	border-radius: 50%;
+	font-family: 'karla-regular';
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+  }
+
+  div.stoleyourwallet {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top:200px;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  div.lostwallet {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top:400px;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  div.local {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top:400px;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  div.disbelief {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top:400px;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+	padding-bottom:40px;
+  }
+
+  div.sweaty {
+	font-family: 'wombscript-linear';
+	font-size: 50px;
+	color:blue;
+	text-align:center;
+	padding-bottom:20px;
+  }
+
+  div.walkingingarden {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top:200px;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  div.poop {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top:500px;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+  div.ohno {
+	font-family: 'wombscript-linear';
+	padding-top:20px;
+	font-size: 30px;
+	text-align: right;
+	padding-right:200px;
+	padding-bottom:20px;
+	color:blue;
+  }
+
+  div.diagnosis {
+	font-family: 'youngserif-regular';
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  .diagnosis a {
+	  text-decoration: none;
+  }
+
+  div.parissyndrome {
+	font-family: 'wombscript-linear';
+	font-size: 200px;
+	color:blue;
+	text-align:center;
+	padding-top: 150px;
+  }
+
+  .parissyndrome a {
+	  text-decoration: none;
+  }
+
+.wrapper{
+    max-width: 400px;
+    background:none;
+    height: 40px;
+    text-align: right;
+}
+
+.marquee {
+    background:none;
+    white-space: nowrap;
+    animation: rightThenLeft 120s linear;
+	padding-left:10px;
+	font-family: 'karla-regular';
+	
+}
+
+.marquee a {
+	text-decoration: none;
+}
+
+div.adventure {
+	font-family: 'karla-regular';
+	font-size: 10px;
+	text-align: center;
+	padding-left:600px;
+	padding-top:-50px;
+}
+
+.adventure a {
+	text-decoration: none;
+}
+
+.snail-video video {
+	object-fit: cover;
+	width: 100%;
+    height: 100%; 
+    z-index: -100;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  div.lourvewelcome {
+	font-size:100px;
+	text-align:left;
+	padding:30px;
+	font-family:'youngserif-regular';
+	color:blue;
+	position:fixed;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  div.smell {
+	  font-family:'karla-regular';
+	  text-align: left;
+	  color: blue;
+  }
+
+  div.fishy {
+	font-family:'karla-regular';
+	text-align: left;
+	color: blue;
+	font-size:40px;
+}
+
+.fishy a {
+	text-decoration: none;
+}
+
+div.retailtherapy {
+	font-family:'karla-regular';
+	  text-align: left;
+	  color: blue;
+	  padding-top:30px;
+	  padding-left: 20px;
+  }
+
+  div.whereto {
+	  font-family:'karla-regular';
+	  text-align: center;
+	  color: blue;
+	  padding-top:70px;
+
+  }
+
+div.fled {
+	font-family:'karla-regular';
+	text-align: center;
+	font-size:10px;
+	padding-bottom:60px;
+}	
+
+.fled a {
+	text-decoration: none;
+}
+
+div.getnewshirt {
+	font-family:'karla-regular';
+	text-align: center;
+	font-size:10px;
+	bottom:10px;
+	padding-bottom:10px;
+	color:white;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+}	
+
+.getnewshirt a {
+	text-decoration: none;
+}
+
+div.next {
+	font-family:'karla-regular';
+	text-align: right;
+	font-size:10px;
+	bottom:10px;
+	padding-bottom:10px;
+	padding-right:20px;
+	color:white;
+}	
+
+.next a {
+	text-decoration: none;
+}
+div.faint {
+	font-family:'karla-regular';
+	text-align: right;
+	padding-right:20px;
+	color:white;
+	font-size: 15px;
+}	
+
+.faint a {
+	text-decoration: none;
+}
